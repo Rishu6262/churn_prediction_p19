@@ -1,3 +1,4 @@
+#  there are two ui use  in this model 
 # import streamlit as st
 # import numpy as np
 
@@ -84,6 +85,7 @@
 #             f"<h2>{prob*100:.2f}%</h2>",
 #             unsafe_allow_html=True
 #         )
+#  this is secnond ui for dl project
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -139,11 +141,12 @@ if st.button("🔍 Predict Churn"):
     pred_prob = float(model.predict(X)[0][0])
     pred_class = 1 if pred_prob >= 0.5 else 0
 
-    st.subheader("📌 Prediction Result")
+    st.subheader("📌 Prediction Result Using Deep Learning")
     st.write(f"**Churn Probability:** {pred_prob:.2f}")
 
     if pred_class == 1:
         st.error("⚠️ Customer is likely to CHURN!")
     else:
         st.success("✅ Customer is NOT likely to churn.")
+
 
