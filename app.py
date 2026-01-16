@@ -89,10 +89,10 @@ import numpy as np
 import pandas as pd
 from tensorflow.keras.models import load_model
 
-st.set_page_config(page_title="Churn Prediction (DL)", page_icon="📉", layout="centered")
+st.set_page_config(page_title="Churn Prediction ( Deep Learning )", page_icon="📉", layout="centered")
 
-st.title("📉 Customer Churn Prediction (Deep Learning)")
-st.write("Enter customer details and predict churn.")
+st.title("📉 Customer Churn Prediction (Deep Learning) P_19")
+st.write("Enter customer details and predict churn Prediction.")
 
 # ✅ Load model
 @st.cache_resource
@@ -146,3 +146,4 @@ if st.button("🔍 Predict Churn"):
         st.error("⚠️ Customer is likely to CHURN!")
     else:
         st.success("✅ Customer is NOT likely to churn.")
+
