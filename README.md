@@ -1,5 +1,15 @@
 # 🧠 Customer Churn Prediction Using Deep Learning
 
+---
+
+🚀 Live Application
+
+🔗 https://churnpredictionp19-evkjk4fzrarzujckjevh9h.streamlit.app/
+
+Predict customer churn using Deep Learning and Artificial Neural Networks (ANN). The model analyzes customer demographics, banking behavior, and financial information to identify customers who are likely to leave the bank.
+
+---
+
 ## 📌 Project Overview
 
 Customer churn is one of the biggest challenges faced by businesses, especially in the banking and financial sector. Customer churn occurs when a customer stops using a company's products or services.
